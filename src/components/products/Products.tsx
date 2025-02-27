@@ -97,6 +97,7 @@ import MyButton from '../myButton/MyButton';
 import Loader from '../loader/Loader';
 import Cart from '../cart/Cart';
 import { useFavorites } from '../../favoritesContext/FavoritesContext';
+import classNames from 'classnames';
 
 export interface IProduct {
     id: number;
@@ -175,6 +176,7 @@ export default function Products(): JSX.Element {
                                 addToFavorites={addToFavorites}
                                 removeFromFavorites={removeFromFavorites}
                                 isFavorite={isFavorite}
+                               
                             />
                         ))}
                     </div>
