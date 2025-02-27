@@ -1,4 +1,3 @@
-
 import { HashRouter, Link, Route, Routes } from "react-router-dom";
 import { FavoritesProvider } from "./favoritesContext/FavoritesContext";
 import { CartProvider } from "./context/CartContext";
@@ -60,10 +59,12 @@ function App() {
               <Route path="lesson-14" element={<Lesson14 />} />
               <Route path="lesson-14/:id" element={<ProductPage />} />
               <Route path="lesson-15" element={
-                <h2>На этом уроке мы создали
-                  <Link to='/products'>корзину для продуктов</Link>
-                  с помощью React Context 🛒
-                </h2>} />
+                  <h2>
+                    На этом уроке мы создали с помощью React Context<br />
+                    <Link to="/products">корзину для продуктов</Link> 🛒
+                  </h2>
+                }
+              />
               <Route path="lesson-16" element={<Lesson16 />} />
 
               <Route path="*" element={<NoPage />} />
