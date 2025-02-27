@@ -9,7 +9,6 @@ export default function HomePage():JSX.Element {
       <h2>alexs home page🏠</h2>
       <div className={styles.gridContainer}>
         <HomePageLessons />
-       
         {/* <Link to="lesson-01">
           <div>Lesson 1</div>
         </Link> */}

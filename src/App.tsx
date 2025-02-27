@@ -44,7 +44,6 @@ function App() {
               {/* новый динамический роутинг */}
               <Route path="products/:id" element={<ProductPage />} />
 
-
               <Route path="lesson-01" element={<Lesson01 />} />
               <Route path="lesson-02" element={<Lesson02 />} />
               <Route path="lesson-03" element={<Lesson03 />} />
